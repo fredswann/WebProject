@@ -1,0 +1,7 @@
+body { width: 90%; margin:0 auto; max-width:460px; }
+.tab { display:table; width:100%; table-layout:fixed; }
+.tRow{ display: table-row; width: 100%; }
+.tCell { display:table-cell; vertical-align:top; }
+.tRow .tCell:nth-child(1){ width:35%; text-align:right; font-weight:bold; }
+.tRow .tCell:nth-child(2){ width:64%; padding-left:1%; }
+.error { font-weight:bold; color:red; }
